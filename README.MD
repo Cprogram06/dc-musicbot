@@ -16,6 +16,16 @@ Welcome to **Ghost DJ**, your personal music bot for Discord! With Ghost DJ, you
 
 ---
 
+## Features
+
+- **Queue Management:** Add, view, shuffle, and clear songs from your music queue.
+- **Playlist Support:** Import playlists from YouTube or Spotify.
+- **YouTube Integration:** Play individual tracks or search for music directly.
+- **Easy Setup:** Quickly connect and disconnect from voice channels.
+- **Skip Tracks:** Move seamlessly to the next track in the queue.
+
+---
+
 ## Installation
 1. Clone the Ghost DJ repository:
 ```
@@ -46,16 +56,6 @@ SPOTIFY_SECRET=your-spotify-client-secret
 python bot.py
 ```
 The bot should now be running and ready for use in your Discord server.
-
----
-
-## Features
-
-- **Queue Management:** Add, view, shuffle, and clear songs from your music queue.
-- **Playlist Support:** Import playlists from YouTube or Spotify.
-- **YouTube Integration:** Play individual tracks or search for music directly.
-- **Easy Setup:** Quickly connect and disconnect from voice channels.
-- **Skip Tracks:** Move seamlessly to the next track in the queue.
 
 ---
 
