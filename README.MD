@@ -6,11 +6,46 @@ Welcome to **Ghost DJ**, your personal music bot for Discord! With Ghost DJ, you
 
 ## Table of Contents
 1. [Features](#features)
-2. [Bot Commands](#bot-commands)
-3. [Configuration](#configuration)
-4. [Troubleshooting](#troubleshooting)
-5. [Contributing](#contributing)
-6. [License](#license)
+2. [Installation](#installation)
+2. [Technologies Used](#technologies-used)
+3. [Bot Commands](#bot-commands)
+4. [Configuration](#configuration)
+5. [Troubleshooting](#troubleshooting)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+---
+
+## Installation
+1. Clone the Ghost DJ repository:
+```
+git clone https://github.com/Cprogram06/dc-musicbot.git
+```
+2. Navigate to the project directory:
+```
+cd dc-musicbot
+```
+3. Set up a virtual environment (optional but recommended):
+```
+python -m venv venv
+source venv/bin/activate # For Linux/Mac
+venv\Scripts\activate    # For Windows
+```
+4. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+5. Create a .env file in the project directory and configure your environment variables:
+```
+DISCORD_TOKEN=your-discord-bot-token
+SPOTIFY_CLIENT_ID=your-spotify-client-id
+SPOTIFY_SECRET=your-spotify-client-secret
+```
+6. Start the bot:
+```
+python bot.py
+```
+The bot should now be running and ready for use in your Discord server.
 
 ---
 
@@ -84,7 +119,7 @@ Here are some common issues and how to resolve them:
 3. **Queue issues:**
    - Use the `!clear_queue` command to reset the queue if it gets stuck.
 
-If you encounter any other issues, feel free to open a ticket on the [GitHub Issues](https://github.com/your-repo/ghost-dj/issues) page.
+If you encounter any other issues, feel free to open a ticket on the [GitHub Issues](https://github.com/Cprogram06/dc-musicbot/issues) page.
 
 ---
 
